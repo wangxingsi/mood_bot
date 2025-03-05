@@ -1,0 +1,8 @@
+["高兴"]
+reply_lib = "reply/happy.toml"
+
+["悲伤"]
+reply_lib = "reply/sad.toml"
+
+["default"]
+reply_lib = "reply/default.toml"

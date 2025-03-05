@@ -1,0 +1,21 @@
+# keyword/keyword.toml
+
+[keywords."喜欢"]
+replies = ["谢谢你的喜欢~", "好开心听到你这么说！"]
+impact = { P = 0.1 }
+mood = "happy"  # 仅在高兴状态触发
+
+[keywords."安慰"]
+replies = ["一切都会好起来的", "我在这里陪着你"]
+impact = { D = -0.3 }
+mood = "sad"    # 仅在悲伤状态触发
+
+[keywords."(你好|Hi)"]
+replies = ["你好呀！", "很高兴见到你！"]
+impact = { A = 0.1 }
+mood = "default"  # 通用关键词
+
+[keywords."最棒"]
+replies = ["您真是太好了！"]
+impact = { P = 0.2 }
+mood = "any"      # 跨情绪触发
